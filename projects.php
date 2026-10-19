@@ -1794,7 +1794,7 @@
 
 
                         <a
-                            href="projects/service/index.php"
+                            href="./fitcore_demo.php"
                             class="explore-btn">
 
                             Explore Project
