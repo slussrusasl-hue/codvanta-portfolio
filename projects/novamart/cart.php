@@ -943,7 +943,9 @@ $amountForFreeDelivery = max(
 
             <div class="col-6 col-lg-3">
                 <a href="index.php" class="brand">
-                    <span class="brand-icon">N</span>
+                   
+                        <img src="../images/novamart/novamart_logo.png" width="40px" height="40px">
+                    
                     <span>NovaMart</span>
                 </a>
             </div>
@@ -1127,7 +1129,7 @@ $amountForFreeDelivery = max(
                                                class="product-image">
 
                                                 <img
-                                                    src="../assets/images/<?= e($itemImage) ?>"
+                                                    src="<?= e($itemImage) ?>"
                                                     alt="<?= e($itemName) ?>"
                                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
                                                 >
@@ -1426,7 +1428,7 @@ $amountForFreeDelivery = max(
 
             <div class="col-lg-4">
                 <a href="index.php" class="brand text-white mb-3">
-                    <span class="brand-icon">N</span>
+                    <img src="../images/novamart/novamart_logo.png" width="40px" height="40px">
                     <span>NovaMart</span>
                 </a>
 

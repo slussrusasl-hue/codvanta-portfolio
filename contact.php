@@ -948,7 +948,7 @@
 
         <a class="navbar-brand"
            href="index.php">
-
+            <img src="./projects/images/Codvanta_logo.png" width="23px" height="35px">
             Codvanta<span class="brand-dot">.</span>
 
         </a>

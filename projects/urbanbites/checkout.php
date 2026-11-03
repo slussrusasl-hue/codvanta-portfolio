@@ -369,6 +369,7 @@
     <div class="container">
 
         <a class="navbar-brand" href="index.php">
+            <img src="../../assets/img/main_logo.png" width="75px" height="60px" style="margin-top: -30px;">
             UrbanBites
         </a>
 
@@ -943,7 +944,7 @@
         <div class="row g-4">
 
             <div class="col-md-5">
-
+                <img src="../../assets/img/main_logo.png" width="75px" height="60px" style="margin-top: -30px;">
                 <h4>UrbanBites</h4>
 
                 <p>

@@ -747,7 +747,7 @@ function e($value) {
 
 <aside class="sidebar" id="sidebar">
     <a href="index.php" class="brand">
-        <span class="brand-icon">🍔</span>
+        <img src="../../../assets/img/main_logo.png" width="55px" height="45px" >
         <span>UrbanBites<small>ADMIN PANEL</small></span>
     </a>
 

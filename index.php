@@ -21,7 +21,7 @@
         <div class="container">
             <a class="navbar-brand d-flex align-items-center gap-2" href="index.php">
                 <!-- Replace this with your real logo -->
-                <span class="brand-mark">C</span>
+                <img src="./projects/images/Codvanta_logo.png" width="23px" height="35px">
                 <span class="brand-name">Codvanta</span>
             </a>
 
@@ -271,6 +271,7 @@
                         <a href="projects/ecims/showcase.php" class="project-card project-large">
                             <div class="project-overlay"></div>
                             <div class="project-placeholder ecims-bg">
+                                <img src="./projects/images/main_img/background_2.avif" width="750px" height="480px">
                                 <span class="project-symbol">+</span>
                                 <span class="project-ui-label">HEALTHCARE PLATFORM</span>
                             </div>
@@ -288,6 +289,7 @@
                     <div class="col-lg-5">
                         <a href="projects/restaurant/showcase.php" class="project-card">
                             <div class="project-placeholder restaurant-bg">
+                                <img src="./assets/img/close-up-delicious-burger-meal.jpg" width="530px" height="360px">
                                 <span class="project-symbol">◈</span>
                                 <span class="project-ui-label">RESTAURANT PLATFORM</span>
                             </div>

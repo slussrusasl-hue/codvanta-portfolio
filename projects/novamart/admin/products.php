@@ -38,7 +38,7 @@ if (!isset($_SESSION["novamart_admin_products"])) {
             "category" => "Electronics",
             "price" => 8500,
             "stock" => 24,
-            "image" => "earbuds.jpg",
+            "image" => "SBT-907-web-png-min.webp",
             "active" => true
         ],
         2 => [
@@ -48,7 +48,7 @@ if (!isset($_SESSION["novamart_admin_products"])) {
             "category" => "Accessories",
             "price" => 12500,
             "stock" => 8,
-            "image" => "smartwatch.jpg",
+            "image" => "smart_watch.webp",
             "active" => true
         ],
         3 => [
@@ -58,7 +58,7 @@ if (!isset($_SESSION["novamart_admin_products"])) {
             "category" => "Computing",
             "price" => 185000,
             "stock" => 5,
-            "image" => "laptop.jpg",
+            "image" => "laptop.png",
             "active" => true
         ],
         4 => [
@@ -68,7 +68,7 @@ if (!isset($_SESSION["novamart_admin_products"])) {
             "category" => "Electronics",
             "price" => 6500,
             "stock" => 18,
-            "image" => "speaker.jpg",
+            "image" => "speaker.png",
             "active" => true
         ],
         5 => [
@@ -78,7 +78,7 @@ if (!isset($_SESSION["novamart_admin_products"])) {
             "category" => "Gaming",
             "price" => 11500,
             "stock" => 0,
-            "image" => "keyboard.jpg",
+            "image" => "keyboard.png",
             "active" => true
         ],
         6 => [
@@ -88,7 +88,7 @@ if (!isset($_SESSION["novamart_admin_products"])) {
             "category" => "Fashion",
             "price" => 4200,
             "stock" => 32,
-            "image" => "backpack.jpg",
+            "image" => "backpack.png",
             "active" => true
         ],
         7 => [
@@ -98,7 +98,7 @@ if (!isset($_SESSION["novamart_admin_products"])) {
             "category" => "Home Appliances",
             "price" => 24500,
             "stock" => 11,
-            "image" => "airfryer.jpg",
+            "image" => "air-fryer.png",
             "active" => true
         ],
         8 => [
@@ -108,7 +108,7 @@ if (!isset($_SESSION["novamart_admin_products"])) {
             "category" => "Computing",
             "price" => 2800,
             "stock" => 3,
-            "image" => "mouse.jpg",
+            "image" => "gaming_mouse.jpg",
             "active" => false
         ],
         9 => [
@@ -118,7 +118,7 @@ if (!isset($_SESSION["novamart_admin_products"])) {
             "category" => "Computing",
             "price" => 7500,
             "stock" => 14,
-            "image" => "webcam.jpg",
+            "image" => "webcam.png",
             "active" => true
         ],
         10 => [
@@ -128,7 +128,7 @@ if (!isset($_SESSION["novamart_admin_products"])) {
             "category" => "Accessories",
             "price" => 1900,
             "stock" => 27,
-            "image" => "fitness.jpg",
+            "image" => "fitness.png",
             "active" => true
         ],
         11 => [
@@ -138,7 +138,7 @@ if (!isset($_SESSION["novamart_admin_products"])) {
             "category" => "Home Appliances",
             "price" => 3900,
             "stock" => 7,
-            "image" => "lamp.jpg",
+            "image" => "desk_lamp.png",
             "active" => true
         ],
         12 => [
@@ -148,7 +148,7 @@ if (!isset($_SESSION["novamart_admin_products"])) {
             "category" => "Gaming",
             "price" => 9800,
             "stock" => 16,
-            "image" => "headset.jpg",
+            "image" => "gaming_headset.png",
             "active" => true
         ]
     ];
@@ -1685,14 +1685,12 @@ $formProduct = $editProduct ?? [
                                 <td>
                                     <div class="product-cell">
                                         <div class="product-image">
-                                            <?php if ($imageName !== ""): ?>
+                                            
                                                 <img
-                                                    src="../../assets/images/<?= e($imageName) ?>"
+                                                    src="../../images/novamart/<?= e($product["image"]) ?>"
                                                     alt="<?= e($product["name"]) ?>"
-                                                    onerror="this.style.display='none'; this.parentElement.textContent='📦';">
-                                            <?php else: ?>
-                                                📦
-                                            <?php endif; ?>
+                                                    
+                                            
                                         </div>
 
                                         <div>

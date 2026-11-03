@@ -598,7 +598,7 @@
         <a
             class="navbar-brand"
             href="index.php">
-
+            <img src="../../../assets/img/main_logo.png" width="55px" height="45px" >
             UrbanBites
 
         </a>

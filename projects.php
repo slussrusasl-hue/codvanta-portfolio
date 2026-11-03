@@ -161,6 +161,8 @@
                     rgba(54,116,246,0.18),
                     transparent 30%
                 ),
+                url("./projects/images/project.png")
+                center 50% / cover no-repeat,
 
                 radial-gradient(
                     circle at 85% 70%,
@@ -1016,7 +1018,7 @@
 
         <a class="navbar-brand"
            href="index.php">
-
+            <img src="./projects/images/Codvanta_logo.png" width="23px" height="35px">
             Codvanta<span class="brand-dot">.</span>
 
         </a>
@@ -1284,7 +1286,7 @@
                     <div class="project-image">
 
                         <img
-                            src="assets/images/projects/ecims.jpg"
+                            src="./projects/images/main_img/background_2.avif"
                             alt="ECIMS healthcare management system">
 
 
@@ -1375,7 +1377,7 @@
                     <div class="project-image">
 
                         <img
-                            src="assets/img/restaurant.png"
+                            src="assets/img/close-up-delicious-burger-meal.jpg"
                             alt="Restaurant management web application">
 
 
@@ -1466,7 +1468,7 @@
                     <div class="project-image">
 
                         <img
-                            src="assets/images/projects/ecommerce.jpg"
+                            src="./projects/images/novamart/home_image - Copy.jpg"
                             alt="E-commerce web application">
 
 
@@ -1556,7 +1558,7 @@
                     <div class="project-image">
 
                         <img
-                            src="assets/images/projects/hotel.jpg"
+                            src="./projects/images/azurabay/project_demo.png"
                             alt="Hotel booking management system">
 
 
@@ -1614,7 +1616,7 @@
 
 
                         <a
-                            href="projects/hotel/index.php"
+                            href="./azurebay_demo.php"
                             class="explore-btn">
 
                             Explore Project
@@ -1704,7 +1706,7 @@
 
 
                         <a
-                            href="projects/business/index.php"
+                            href="./proserve_demo.php"
                             class="explore-btn">
 
                             Explore Project
@@ -1736,7 +1738,7 @@
                     <div class="project-image">
 
                         <img
-                            src="assets/images/projects/service.jpg"
+                            src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1900&q=85"
                             alt="Service business management platform">
 
 

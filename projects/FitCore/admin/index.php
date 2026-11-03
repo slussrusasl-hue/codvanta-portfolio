@@ -1429,9 +1429,9 @@ $chartMax = max(1, $maxRevenue);
 
         <div class="brand-area">
             <a href="index.php" class="brand">
-                <div class="brand-mark">
-                    <i class="fas fa-dumbbell"></i>
-                </div>
+               
+                    <img src="../../images/fitcore/fitcore_main.png" width="60px" height="60px">
+                
 
                 <div>
                     <div class="brand-name">Fit<span>Core</span></div>

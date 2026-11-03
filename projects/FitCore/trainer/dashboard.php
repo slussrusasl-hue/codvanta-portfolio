@@ -869,7 +869,7 @@ function displayDate($date) {
 <aside class="sidebar" id="sidebar">
 
     <a href="dashboard.php" class="brand">
-        <div class="brand-icon">F</div>
+        <img src="../../images/fitcore/fitcore_main.png" width="60px" height="60px">
         <div>
             <div class="brand-name">Fit<span>Core</span></div>
             <div class="brand-subtitle">TRAINER PORTAL</div>

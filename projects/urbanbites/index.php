@@ -852,6 +852,7 @@
     <div class="container">
 
         <a class="navbar-brand" href="index.php">
+            <img src="../../assets/img/main_logo.png" width="75px" height="60px" style="margin-top: -30px;">
             Urban<span class="brand-dot">Bites</span>
         </a>
 
@@ -1902,6 +1903,7 @@
             <div class="col-lg-5">
 
                 <div class="footer-brand">
+                    <img src="../../assets/img/main_logo.png" width="75px" height="60px" style="margin-top: -30px;">
                     Urban<span>Bites</span>
                 </div>
 

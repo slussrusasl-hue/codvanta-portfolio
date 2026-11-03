@@ -944,9 +944,7 @@ $specializations = [
     <!-- Administrator Sidebar -->
     <aside class="sidebar">
         <a href="index.php" class="brand">
-            <div class="brand-icon">
-                <i class="fas fa-dumbbell"></i>
-            </div>
+            <img src="../../images/fitcore/fitcore_main.png" width="60px" height="60px">
             <div>
                 <h1 class="brand-name">FIT<span>CORE</span></h1>
                 <p class="brand-subtitle">Fitness Management System</p>

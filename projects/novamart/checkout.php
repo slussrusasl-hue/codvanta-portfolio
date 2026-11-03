@@ -823,6 +823,7 @@ $paymentDescriptions = [
 <nav class="navbar navbar-expand-lg">
     <div class="container">
         <a class="navbar-brand" href="index.php">
+            <img src="../images/novamart/novamart_logo.png" width="40px" height="40px">
             NovaMart<span class="brand-dot">.</span>
         </a>
 

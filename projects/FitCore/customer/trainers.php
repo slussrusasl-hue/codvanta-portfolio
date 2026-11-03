@@ -723,6 +723,7 @@ function trainerEscape($value)
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
         <a class="navbar-brand" href="index.php">
+            <img src="../../images/fitcore/fitcore_main.png" width="60px" height="60px">
             FIT<span class="brand-highlight">CORE</span>
         </a>
 

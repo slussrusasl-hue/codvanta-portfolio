@@ -44,7 +44,7 @@ $products = [
         "old_price" => 6000,
         "rating" => 4.8,
         "reviews" => 124,
-        "image" => "earbuds.jpg",
+        "image" => "../images/novamart/SBT-907-web-png-min.webp",
         "emoji" => "🎧",
         "badge" => "Best Seller",
         "stock" => 18,
@@ -73,7 +73,7 @@ $products = [
         "old_price" => 9500,
         "rating" => 4.6,
         "reviews" => 86,
-        "image" => "smartwatch.jpg",
+        "image" => "../images/novamart/smart_watch.webp",
         "emoji" => "⌚",
         "badge" => "Popular",
         "stock" => 12,
@@ -102,7 +102,7 @@ $products = [
         "old_price" => 210000,
         "rating" => 4.9,
         "reviews" => 58,
-        "image" => "laptop.jpg",
+        "image" => "../images/novamart/laptop.png",
         "emoji" => "💻",
         "badge" => "Premium",
         "stock" => 7,
@@ -131,7 +131,7 @@ $products = [
         "old_price" => 4200,
         "rating" => 4.5,
         "reviews" => 72,
-        "image" => "gaming-mouse.jpg",
+        "image" => "../images/novamart/gaming_mouse.jpg",
         "emoji" => "🖱️",
         "badge" => "Deal",
         "stock" => 24,
@@ -160,7 +160,7 @@ $products = [
         "old_price" => 7000,
         "rating" => 4.7,
         "reviews" => 93,
-        "image" => "speaker.jpg",
+        "image" => "../images/novamart/speaker.png",
         "emoji" => "🔊",
         "badge" => "Popular",
         "stock" => 15,
@@ -189,7 +189,7 @@ $products = [
         "old_price" => 99000,
         "rating" => 4.7,
         "reviews" => 112,
-        "image" => "smartphone.jpg",
+        "image" => "../images/novamart/smartphone.png",
         "emoji" => "📱",
         "badge" => "Hot Deal",
         "stock" => 9,
@@ -218,7 +218,7 @@ $products = [
         "old_price" => 8500,
         "rating" => 4.6,
         "reviews" => 64,
-        "image" => "keyboard.jpg",
+        "image" => "../images/novamart/keyboard.png",
         "emoji" => "⌨️",
         "badge" => "Deal",
         "stock" => 11,
@@ -247,7 +247,7 @@ $products = [
         "old_price" => 3500,
         "rating" => 4.4,
         "reviews" => 41,
-        "image" => "backpack.jpg",
+        "image" => "../images/novamart/backpack.png",
         "emoji" => "🎒",
         "badge" => "",
         "stock" => 20,
@@ -276,7 +276,7 @@ $products = [
         "old_price" => 17500,
         "rating" => 4.6,
         "reviews" => 39,
-        "image" => "air-fryer.jpg",
+        "image" => "../images/novamart/air-fryer.png",
         "emoji" => "🍟",
         "badge" => "Special Offer",
         "stock" => 6,
@@ -305,7 +305,7 @@ $products = [
         "old_price" => 8000,
         "rating" => 4.5,
         "reviews" => 76,
-        "image" => "headphones.jpg",
+        "image" => "../images/novamart/headphones.webp",
         "emoji" => "🎧",
         "badge" => "Popular",
         "stock" => 14,
@@ -334,7 +334,7 @@ $products = [
         "old_price" => 5200,
         "rating" => 4.3,
         "reviews" => 32,
-        "image" => "watch.jpg",
+        "image" => "../images/novamart/watch.webp",
         "emoji" => "⌚",
         "badge" => "",
         "stock" => 16,
@@ -363,7 +363,7 @@ $products = [
         "old_price" => 4500,
         "rating" => 4.5,
         "reviews" => 67,
-        "image" => "power-bank.jpg",
+        "image" => "../images/novamart/power-bank.png",
         "emoji" => "🔋",
         "badge" => "Deal",
         "stock" => 25,
@@ -392,7 +392,7 @@ $products = [
         "old_price" => 3000,
         "rating" => 4.2,
         "reviews" => 28,
-        "image" => "desk-lamp.jpg",
+        "image" => "../images/novamart/desk_lamp.png",
         "emoji" => "💡",
         "badge" => "",
         "stock" => 17,
@@ -421,7 +421,7 @@ $products = [
         "old_price" => 7500,
         "rating" => 4.4,
         "reviews" => 47,
-        "image" => "running-shoes.jpg",
+        "image" => "../images/novamart/running_shoes.png",
         "emoji" => "👟",
         "badge" => "Sale",
         "stock" => 13,
@@ -450,7 +450,7 @@ $products = [
         "old_price" => 4800,
         "rating" => 4.3,
         "reviews" => 35,
-        "image" => "skincare.jpg",
+        "image" => "../images/novamart/skincare.png",
         "emoji" => "🧴",
         "badge" => "Special Offer",
         "stock" => 10,
@@ -479,7 +479,7 @@ $products = [
         "old_price" => 3600,
         "rating" => 4.7,
         "reviews" => 51,
-        "image" => "building-blocks.jpg",
+        "image" => "../images/novamart/building_blocks.png",
         "emoji" => "🧩",
         "badge" => "Popular",
         "stock" => 19,
@@ -1273,7 +1273,7 @@ foreach ($products as $related) {
         <div class="row align-items-center g-3">
             <div class="col-6 col-lg-3">
                 <a href="index.php" class="brand">
-                    <span class="brand-icon">N</span>
+                    <img src="../images/novamart/novamart_logo.png" width="40px" height="40px">
                     <span>NovaMart</span>
                 </a>
             </div>
@@ -1368,7 +1368,7 @@ foreach ($products as $related) {
                         <?php endif; ?>
 
                         <img
-                            src="../assets/images/<?= e($product["image"]) ?>"
+                            src="<?= e($product["image"]) ?>"
                             alt="<?= e($product["name"]) ?>"
                             onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
                         >
@@ -1625,7 +1625,7 @@ foreach ($products as $related) {
                             <a href="product_details.php?id=<?= (int)$related["id"] ?>">
                                 <div class="related-image">
                                     <img
-                                        src="../assets/images/<?= e($related["image"]) ?>"
+                                        src="<?= e($related["image"]) ?>"
                                         alt="<?= e($related["name"]) ?>"
                                         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
                                     >
@@ -1721,7 +1721,7 @@ foreach ($products as $related) {
         <div class="row g-4">
             <div class="col-lg-4">
                 <a href="index.php" class="brand text-white mb-3">
-                    <span class="brand-icon">N</span>
+                    <img src="../images/novamart/novamart_logo.png" width="40px" height="40px">
                     <span>NovaMart</span>
                 </a>
 

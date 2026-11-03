@@ -110,6 +110,8 @@
                     rgba(54, 116, 246, 0.18),
                     transparent 30%
                 ),
+                url("./projects/images/service.png")
+                center 55% / cover no-repeat,
 
                 radial-gradient(
                     circle at 85% 70%,
@@ -762,7 +764,7 @@
     <div class="container">
 
         <a class="navbar-brand" href="index.php">
-
+            <img src="./projects/images/Codvanta_logo.png" width="23px" height="35px">
             Codvanta<span class="brand-dot">.</span>
 
         </a>

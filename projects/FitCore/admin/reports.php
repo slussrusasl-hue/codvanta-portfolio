@@ -1434,9 +1434,7 @@ $periodLabel = match ($period) {
 
 <aside class="sidebar" id="sidebar">
     <a href="index.php" class="brand text-white">
-        <div class="brand-icon">
-            <i class="fas fa-dumbbell"></i>
-        </div>
+        <img src="../../images/fitcore/fitcore_main.png" width="60px" height="60px">
         <div>
             <h4>FITCORE</h4>
             <small>ADMINISTRATION</small>

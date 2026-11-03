@@ -550,7 +550,7 @@ $pageTitle = "NovaMart Demo | Codvanta";
 
                         <!-- Update this URL if your admin dashboard
                              uses a different filename or directory. -->
-                        <a href="novamart/admin/index.php"
+                        <a href="./projects/novamart/admin/index.php"
                            class="access-button admin-button">
                             Explore as Administrator
                             <span aria-hidden="true">&rarr;</span>

@@ -92,6 +92,8 @@
             overflow: hidden;
             background:
                 radial-gradient(circle at 15% 30%, rgba(54, 116, 246, 0.18), transparent 30%),
+                url("./projects/images/7636208_3622961.jpg")
+                center 55% / cover no-repeat,
                 radial-gradient(circle at 85% 70%, rgba(114, 86, 232, 0.16), transparent 30%),
                 #07111f;
         }
@@ -497,6 +499,7 @@
     <div class="container">
 
         <a class="navbar-brand" href="index.php">
+            <img src="./projects/images/Codvanta_logo.png" width="23px" height="35px">
             Codvanta<span class="brand-dot">.</span>
         </a>
 
@@ -567,10 +570,9 @@
 ========================= -->
 
 <section class="about-hero">
+    <div class="container">  
 
-    <div class="container">
-
-        <div class="hero-content">
+        <div class="hero-content">   
 
             <span class="small-label">
                 About Codvanta

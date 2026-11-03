@@ -648,7 +648,7 @@
 <aside class="sidebar" id="sidebar">
 
     <div class="brand">
-
+        <img src="../../../assets/img/main_logo.png" width="55px" height="45px" >
         <h2>UrbanBites</h2>
 
         <small>Restaurant Management</small>

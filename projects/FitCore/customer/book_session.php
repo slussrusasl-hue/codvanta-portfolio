@@ -681,6 +681,7 @@ $memberEmail = $member['email'] ?? '';
     <div class="container">
 
         <a class="navbar-brand" href="index.php">
+            <img src="../../images/fitcore/fitcore_main.png" width="60px" height="60px">
             FITCORE<span style="color:#fff;">.</span>
         </a>
 

@@ -1010,7 +1010,7 @@ $formNotes = $_POST["notes"] ?? "";
 <!-- Sidebar -->
 <aside class="sidebar">
     <a href="dashboard.php" class="brand">
-        <span class="brand-icon">⚡</span>
+        <img src="../../images/fitcore/fitcore_main.png" width="60px" height="60px">
         <span>FIT<span>CORE</span></span>
     </a>
 

@@ -21,7 +21,7 @@ $products = [
         "old_price" => 99.99,
         "rating" => 4.8,
         "reviews" => 124,
-        "image" => "assets/images/earbuds.jpg",
+        "image" => "../images/novamart/SBT-907-web-png-min.webp",
         "badge" => "Best Seller",
         "emoji" => "🎧"
     ],
@@ -33,7 +33,7 @@ $products = [
         "old_price" => 199.99,
         "rating" => 4.7,
         "reviews" => 98,
-        "image" => "assets/images/smartwatch.jpg",
+        "image" => "../images/novamart/smart_watch.webp",
         "badge" => "15% OFF",
         "emoji" => "⌚"
     ],
@@ -45,7 +45,7 @@ $products = [
         "old_price" => 999.00,
         "rating" => 4.9,
         "reviews" => 210,
-        "image" => "assets/images/laptop.jpg",
+        "image" => "../images/novamart/laptop.png",
         "badge" => "New Arrival",
         "emoji" => "💻"
     ],
@@ -57,7 +57,7 @@ $products = [
         "old_price" => 79.99,
         "rating" => 4.6,
         "reviews" => 76,
-        "image" => "assets/images/controller.jpg",
+        "image" => "../images/novamart/gaming_controler.png",
         "badge" => "25% OFF",
         "emoji" => "🎮"
     ],
@@ -69,7 +69,7 @@ $products = [
         "old_price" => 59.99,
         "rating" => 4.5,
         "reviews" => 63,
-        "image" => "assets/images/beauty.jpg",
+        "image" => "../images/novamart/beauty.webp",
         "badge" => "Popular",
         "emoji" => "🧴"
     ],
@@ -81,7 +81,7 @@ $products = [
         "old_price" => 79.99,
         "rating" => 4.7,
         "reviews" => 87,
-        "image" => "assets/images/backpack.jpg",
+        "image" => "../images/novamart/backpack.png",
         "badge" => "18% OFF",
         "emoji" => "🎒"
     ],
@@ -93,7 +93,7 @@ $products = [
         "old_price" => 149.99,
         "rating" => 4.8,
         "reviews" => 145,
-        "image" => "assets/images/headphones.jpg",
+        "image" => "../images/novamart/headphones.webp",
         "badge" => "Trending",
         "emoji" => "🎧"
     ],
@@ -105,7 +105,7 @@ $products = [
         "old_price" => 109.99,
         "rating" => 4.6,
         "reviews" => 54,
-        "image" => "assets/images/air-fryer.jpg",
+        "image" => "../images/novamart/air-fryer.png",
         "badge" => "Special Offer",
         "emoji" => "🍳"
     ]
@@ -114,42 +114,42 @@ $products = [
 $categories = [
     [
         "name" => "Electronics",
-        "icon" => "📱",
+        "icon" => "../images/novamart/mobile.png",
         "description" => "Smart devices"
     ],
     [
         "name" => "Computing",
-        "icon" => "💻",
+        "icon" => "../images/novamart/laptop.png",
         "description" => "Laptops & PCs"
     ],
     [
         "name" => "Accessories",
-        "icon" => "🎧",
+        "icon" => "../images/novamart/headphones.webp",
         "description" => "Everyday tech"
     ],
     [
         "name" => "Home Appliances",
-        "icon" => "🏠",
+        "icon" => "../images/novamart/air-fryer.png",
         "description" => "Better living"
     ],
     [
         "name" => "Fashion",
-        "icon" => "👟",
+        "icon" => "../images/novamart/shoes.png",
         "description" => "Style & comfort"
     ],
     [
         "name" => "Beauty",
-        "icon" => "🧴",
+        "icon" => "../images/novamart/beauty.webp",
         "description" => "Personal care"
     ],
     [
         "name" => "Gaming",
-        "icon" => "🎮",
+        "icon" => "../images/novamart/gaming_controler.png",
         "description" => "Level up"
     ],
     [
         "name" => "Toys & Games",
-        "icon" => "🧸",
+        "icon" => "../images/novamart/bear.png",
         "description" => "Fun for everyone"
     ]
 ];
@@ -240,6 +240,10 @@ function money($amount) {
           content="Discover electronics, fashion, home appliances and more at NovaMart. Enjoy a smarter online shopping experience.">
 
     <title>NovaMart | Smarter Shopping, Better Living</title>
+
+    <!-- Include this in your <head> -->
+    <link rel="stylesheet" href="https://jsdelivr.net">
+
 
     <!-- Local Bootstrap CSS -->
     <link rel="stylesheet"
@@ -567,8 +571,8 @@ function money($amount) {
             z-index: 1;
             right: 3%;
             bottom: 0;
-            width: 48%;
-            height: 94%;
+            width: 100%;
+            height: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1432,7 +1436,9 @@ function money($amount) {
         <div class="header-main">
 
             <a href="index.php" class="brand">
-                <span class="brand-symbol">🛍</span>Nova<span
+                
+                    <img src="../images/novamart/novamart_logo.png" width="40px" height="40px">
+                </span>Nova<span
                     class="brand-blue">Mart</span>
 
                 <span class="brand-subtitle">
@@ -1464,12 +1470,12 @@ function money($amount) {
             <!-- Account and Cart -->
             <div class="header-actions">
 
-                <a href="login.php" class="header-link">
-                    <span class="header-icon">&#9818;</span>
+                <a href="./login.php">
+                    <span class="header-icon">&#128273;</span>
                     <span class="link-text">Login</span>
                 </a>
 
-                <a href="register.php" class="header-link">
+                <a href="./register.php" class="header-link">
                     <span class="header-icon">&#128100;</span>
                     <span class="link-text">Register</span>
                 </a>
@@ -1598,7 +1604,7 @@ function money($amount) {
                 <div class="hero-image">
 
                     <img
-                        src="assets/images/novamart-hero.png"
+                        src="../images/novamart/home_image.jpg" width="800px" height="400px" 
                         alt="Discover the latest technology and lifestyle products"
                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
                     >
@@ -1656,7 +1662,7 @@ function money($amount) {
                     >
 
                         <div class="category-icon">
-                            <?php echo e($category["icon"]); ?>
+                            <img src="<?php echo e($category["icon"]); ?>" width="70px" height="75px">
                         </div>
 
                         <span class="category-name">
@@ -1845,7 +1851,7 @@ function money($amount) {
                 </div>
 
                 <div class="promo-emoji" aria-hidden="true">
-                    🎮
+                    <img src="../images/novamart/gaming_acc.png" width="190px" height="220px">
                 </div>
 
             </div>
@@ -1873,7 +1879,7 @@ function money($amount) {
                 </div>
 
                 <div class="promo-emoji" aria-hidden="true">
-                    🏡
+                    <img src="../images/novamart/home_app.avif" width="260px" height="215px">
                 </div>
 
             </div>
@@ -1983,7 +1989,8 @@ function money($amount) {
             <div class="col-lg-4 col-md-6">
 
                 <a href="index.php" class="brand">
-                    🛍 Nova<span class="brand-blue">Mart</span>
+                    <img src="../images/novamart/novamart_logo.png" width="40px" height="40px">
+                     Nova<span class="brand-blue">Mart</span>
                 </a>
 
                 <p class="footer-description">
